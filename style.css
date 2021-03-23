@@ -1,0 +1,170 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-color: #000000;
+  }
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+  .container {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-align: center;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+ .bg {
+    display: block;
+    margin: auto;
+    width: 23%;
+    margin-bottom: 0;
+ }
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+
+}
+
+
+ .botao {
+    background: #1f3c58;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin-right: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+.botao:hover{
+    background: #315e8a;
+    text-decoration: none;
+}
+
+.sect {
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    font-size: 15px;
+    margin-top: 0;
+    color: #1f3c58;
+    text-align: center;
+    
+}
+
+
+
+@media (max-width:900px) {
+    .bg {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 30%;
+    }
+}
+@media (max-width:900px) {
+    footer {
+       display: flex;
+       flex-direction: column;
+       margin-top: 30px;
+    }
+}
+
+
+
+@media (max-width:750px) {
+    .page-title {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+}
+@media (max-width:750px) {
+    .page-subtitle {
+       display: flex;
+       flex-direction: column;
+    }
+}
+
+@media (max-width:750px) {
+    .page-logo {
+        margin: auto;
+       display: flex;
+       flex-direction: column;
+       
+    }
+}
+
+
+@media (max-width:750px) {
+    .sect {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+
+
+    }
+}
+
+@media (max-width:750px) {
+    .botao {
+    margin-top: 10px;
+
+    }
+}
+
+
+@media (max-width:750px) {
+    .bg {
+        margin-top: 20px;
+       display: flex;
+       flex-direction: column;
+       width: 40%;
+       margin-bottom: 0;
+    }
+}
+@media (max-width:750px) {
+    footer {
+        margin: -10px;
+       display: flex;
+       flex-direction: column;
+       
+       
+    }
+}
+
+
+@media (max-width:320px) {
+    .bg {
+        margin-top: 0;
+        margin-bottom: 0;
+       display: flex;
+       flex-direction: column;
+       width: 50%;
+       
+       
+    }
+}
+
